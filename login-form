@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cool form</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="img">
+		<span></span>
+	</div>
+	<div class="page_right">
+		<section class="rows">
+			<p>Welcome to my login page.</p>
+			<p>Sign up now to get started.</p>
+			<span>You <em>know</em> you want to</span>
+		</section>
+		<form action="" class="rows">
+			<h2>Let's do this!</h2>
+			<div class="form_area">
+			<div class="form_left">
+				<label for="fName">FIRST NAME:</label>
+				<input type="text" name="fName" id="fName">
+				<label for="email">EMAIL:</label>
+				<input type="email" name="email" id="email">
+				<label for="pass">PASSWORD:</label>
+				<input type="password" name="pass" id="pass">
+			</div>
+			<div class="form_right">
+				<label for="lName">LAST NAME:</label>
+				<input type="text" name="lName" id="lName">
+				<label for="pNum">PHONE NUMBER:</label>
+				<input type="number" name="pNum" id="pNum">
+				<label for="confirmPass">CONFIRM PASSWORD:</label>
+				<input type="password" name="confirmPass" id="confirmPass">
+			</div>
+			</div>
+		</form>
+		<section class="rows end">
+			<button>Create Account</button>
+			<span>Already have an account? <a href="">Log in</a></span>
+		</section>
+	</div>
+</body>
+</html>
